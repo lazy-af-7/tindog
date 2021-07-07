@@ -1,0 +1,46 @@
+/* HTML elements */
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes */
+.container-fluid{
+    padding: 3% 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IDs */
+#title{
+    background-color: #ff4c68;
+}
+#top-h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 1.5;
+    font-size: 3rem;
+}
