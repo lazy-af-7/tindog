@@ -1,5 +1,5 @@
 /* HTML elements */
-body{
+body {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 900 !important;
 }
@@ -17,45 +17,65 @@ body{
 
 /* Classes */
 
-.navbar{
+.navbar {
     padding: 0 0 2.5rem;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
 }
-.nav-item{
+
+.nav-item {
     padding: 0 1rem;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 3% 10%;
 }
-.download-button{
+
+.download-button {
     margin: 5% 3% 5% 0%;
 }
-.title-image{
+
+.title-image {
     width: 60%;
     transform: rotate(20deg);
 }
-.icons{
-    font-size: 5rem;
+
+.icons {
     color: #ef8172;
     margin-bottom: 1rem;
 }
-.feature-box{
-    text-align:center;
-    font-family: 'Lato',sans-serif;
+
+.icons:hover {
+    color: #ff4c68;
 }
-.subheading{
+
+.feature-box {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.subheading {
     color: #8f8f8f;
 }
 
-
-
+.testimonials-comment {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1%;
+}
 
 
 
@@ -64,15 +84,31 @@ body{
 
 
 /* IDs */
-#title{
+#title {
     background-color: #FF4C68;
     color: white;
 }
-#top-h1{
+
+#top-h1 {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-size: 4rem;
 }
-#features{
+
+#features {
     padding: 7% 10%;
+}
+
+#testimonials {
+    padding: 7% 10%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#press {
+    padding-bottom: 5rem;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
 }
