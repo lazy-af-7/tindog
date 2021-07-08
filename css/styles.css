@@ -98,6 +98,10 @@ p{
 .footer-icons{
     margin: 1%;
     font-size: 2rem;
+    color: black;
+}
+.footer-icons:hover{
+    color: #ff4c68;
 }
 
 
