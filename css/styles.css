@@ -91,6 +91,14 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
+.cta-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.footer-icons{
+    margin: 1%;
+    font-size: 2rem;
+}
 
 
 
@@ -130,4 +138,28 @@ p{
 #pricing{
     padding: 5% 5%;
     text-align: center;
+}
+#cta{
+    background-color: #FF4C68;
+    color: white;
+    text-align: center;
+    padding: 7% 10%;
+}
+#footer{
+    text-align: center;
+    padding: 7% 5%;
+}
+
+
+
+/* Media Query Breakpoints */
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
 }
